@@ -1,0 +1,2 @@
+Sensitive memory: do not export health or medication details to external agents unless I explicitly ask.
+
