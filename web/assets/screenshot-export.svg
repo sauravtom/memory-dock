@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+  <title id="title">Memory Dock context pack export screen</title>
+  <desc id="desc">A context pack export panel with format tabs, a purpose prompt, and a generated pack with cited memory IDs.</desc>
+  <rect width="1200" height="780" fill="#f6f3fb"/>
+  <rect x="120" y="60" width="960" height="660" rx="18" fill="#f8fafc" stroke="#c9d7e5"/>
+  <rect x="120" y="60" width="960" height="70" rx="18" fill="#ffffff"/>
+  <rect x="120" y="112" width="960" height="18" fill="#ffffff"/>
+  <circle cx="172" cy="96" r="18" fill="#2563eb"/>
+  <path d="M164 95c16-25 43 7 14 11l9 17-18-13c-22 3-20-20-5-15z" fill="#fff"/>
+  <text x="210" y="92" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="700" fill="#142033">Memory Dock</text>
+  <text x="210" y="116" font-family="Inter,Arial,sans-serif" font-size="15" fill="#64748b">Export portable context packs</text>
+  <rect x="150" y="160" width="900" height="46" rx="10" fill="#e8eef6"/>
+  <rect x="158" y="168" width="170" height="30" rx="8" fill="#172033"/>
+  <text x="243" y="189" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#fff">Gemini</text>
+  <text x="421" y="189" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="14" fill="#475569">Claude</text>
+  <text x="599" y="189" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="14" fill="#475569">ChatGPT</text>
+  <text x="777" y="189" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="14" fill="#475569">Codex</text>
+  <text x="955" y="189" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="14" fill="#475569">JSON</text>
+  <rect x="150" y="230" width="900" height="84" rx="8" fill="#fff" stroke="#d2dce8"/>
+  <text x="174" y="263" font-family="Inter,Arial,sans-serif" font-size="17" fill="#334155">Create a travel-planning context pack for another agent. Exclude sensitive and work memories.</text>
+  <rect x="150" y="336" width="294" height="44" rx="8" fill="#2563eb"/>
+  <text x="297" y="364" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700" fill="#fff">Generate and copy context pack</text>
+  <rect x="150" y="406" width="900" height="284" rx="12" fill="#111827"/>
+  <text x="176" y="442" font-family="SFMono-Regular,Menlo,monospace" font-size="16" fill="#d1d5db"># Memory Passport: Travel Planning</text>
+  <text x="176" y="478" font-family="SFMono-Regular,Menlo,monospace" font-size="15" fill="#a7f3d0">Included scopes: personal, temporary</text>
+  <text x="176" y="508" font-family="SFMono-Regular,Menlo,monospace" font-size="15" fill="#d1d5db">- Prefers morning flights and aisle seats. [fact_018]</text>
+  <text x="176" y="538" font-family="SFMono-Regular,Menlo,monospace" font-size="15" fill="#d1d5db">- Likes hotels near public transit. [fact_019]</text>
+  <text x="176" y="568" font-family="SFMono-Regular,Menlo,monospace" font-size="15" fill="#d1d5db">- Vegetarian meal preference. [fact_020]</text>
+  <text x="176" y="610" font-family="SFMono-Regular,Menlo,monospace" font-size="15" fill="#fcd34d">Excluded: work, sensitive, never_export</text>
+  <text x="176" y="642" font-family="SFMono-Regular,Menlo,monospace" font-size="15" fill="#93c5fd">Audit event: export_context_pack_072</text>
+</svg>

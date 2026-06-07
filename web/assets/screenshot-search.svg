@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+  <title id="title">Memory Dock search screen</title>
+  <desc id="desc">A memory search screen showing scoped search results with memory snippets and source types.</desc>
+  <rect width="1200" height="780" fill="#f2f7f4"/>
+  <rect x="120" y="60" width="960" height="660" rx="18" fill="#f8fafc" stroke="#c9d7e5"/>
+  <rect x="120" y="60" width="960" height="70" rx="18" fill="#ffffff"/>
+  <rect x="120" y="112" width="960" height="18" fill="#ffffff"/>
+  <circle cx="172" cy="96" r="18" fill="#2563eb"/>
+  <path d="M164 95c16-25 43 7 14 11l9 17-18-13c-22 3-20-20-5-15z" fill="#fff"/>
+  <text x="210" y="92" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="700" fill="#142033">Memory Dock</text>
+  <text x="210" y="116" font-family="Inter,Arial,sans-serif" font-size="15" fill="#64748b">Search scoped memory</text>
+  <rect x="150" y="160" width="770" height="48" rx="9" fill="#fff" stroke="#d2dce8"/>
+  <text x="176" y="191" font-family="Inter,Arial,sans-serif" font-size="18" fill="#172033">morning flights</text>
+  <rect x="934" y="160" width="116" height="48" rx="9" fill="#172033"/>
+  <text x="992" y="191" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700" fill="#fff">Search</text>
+  <rect x="150" y="230" width="900" height="46" rx="10" fill="#e8eef6"/>
+  <rect x="158" y="238" width="170" height="30" rx="8" fill="#172033"/>
+  <text x="243" y="259" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#ffffff">personal</text>
+  <text x="421" y="259" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="14" fill="#475569">work</text>
+  <text x="599" y="259" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="14" fill="#475569">sensitive</text>
+  <text x="777" y="259" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="14" fill="#475569">temporary</text>
+  <text x="955" y="259" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="14" fill="#475569">never_export</text>
+  <rect x="150" y="306" width="900" height="112" rx="12" fill="#ffffff" stroke="#d8e2ed"/>
+  <text x="176" y="342" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" fill="#172033">Travel preferences</text>
+  <rect x="910" y="320" width="112" height="28" rx="14" fill="#eef6ff"/>
+  <text x="966" y="340" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="13" fill="#2563eb">wiki_page</text>
+  <text x="176" y="374" font-family="Inter,Arial,sans-serif" font-size="17" fill="#475569">Prefers morning flights, aisle seats, vegetarian meals, and hotels near public transit.</text>
+  <text x="176" y="402" font-family="Inter,Arial,sans-serif" font-size="13" fill="#64748b">memory_fact: fact_018 | source: travel-notes.md</text>
+  <rect x="150" y="438" width="900" height="112" rx="12" fill="#ffffff" stroke="#d8e2ed"/>
+  <text x="176" y="474" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" fill="#172033">Writing style</text>
+  <rect x="910" y="452" width="112" height="28" rx="14" fill="#f0fdf4"/>
+  <text x="966" y="472" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="13" fill="#15803d">memory</text>
+  <text x="176" y="506" font-family="Inter,Arial,sans-serif" font-size="17" fill="#475569">Likes direct, concise engineering prose with factual tradeoffs and no generic fluff.</text>
+  <text x="176" y="534" font-family="Inter,Arial,sans-serif" font-size="13" fill="#64748b">memory_fact: fact_027 | source: personal-preferences.md</text>
+  <rect x="150" y="570" width="900" height="112" rx="12" fill="#ffffff" stroke="#d8e2ed"/>
+  <text x="176" y="606" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" fill="#172033">Privacy-safe exclusion</text>
+  <rect x="874" y="584" width="148" height="28" rx="14" fill="#fff7ed"/>
+  <text x="948" y="604" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="13" fill="#c2410c">never_export</text>
+  <text x="176" y="638" font-family="Inter,Arial,sans-serif" font-size="17" fill="#475569">Sensitive memories are visible only inside scoped search and are excluded from packs.</text>
+  <text x="176" y="666" font-family="Inter,Arial,sans-serif" font-size="13" fill="#64748b">audit: read_event_044</text>
+</svg>
