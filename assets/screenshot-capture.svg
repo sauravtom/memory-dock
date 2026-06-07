@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+  <title id="title">Memory Dock capture screen</title>
+  <desc id="desc">A macOS menu bar app window with privacy scope controls, a file drop zone, and a pasted memory editor.</desc>
+  <rect width="1200" height="780" fill="#eef5fb"/>
+  <rect x="120" y="60" width="960" height="660" rx="18" fill="#f8fafc" stroke="#c9d7e5"/>
+  <rect x="120" y="60" width="960" height="70" rx="18" fill="#ffffff"/>
+  <rect x="120" y="112" width="960" height="18" fill="#ffffff"/>
+  <circle cx="172" cy="96" r="18" fill="#2563eb"/>
+  <path d="M164 95c16-25 43 7 14 11l9 17-18-13c-22 3-20-20-5-15z" fill="#fff"/>
+  <text x="210" y="92" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="700" fill="#142033">Memory Dock</text>
+  <text x="210" y="116" font-family="Inter,Arial,sans-serif" font-size="15" fill="#64748b">Portable memory for every agent</text>
+  <rect x="150" y="160" width="900" height="46" rx="10" fill="#e8eef6"/>
+  <rect x="158" y="168" width="170" height="30" rx="8" fill="#172033"/>
+  <rect x="336" y="168" width="170" height="30" rx="8" fill="#ffffff"/>
+  <rect x="514" y="168" width="170" height="30" rx="8" fill="#ffffff"/>
+  <rect x="692" y="168" width="170" height="30" rx="8" fill="#ffffff"/>
+  <rect x="870" y="168" width="170" height="30" rx="8" fill="#ffffff"/>
+  <text x="208" y="189" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#ffffff">personal</text>
+  <text x="421" y="189" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="14" fill="#475569">work</text>
+  <text x="599" y="189" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="14" fill="#475569">sensitive</text>
+  <text x="777" y="189" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="14" fill="#475569">temporary</text>
+  <text x="955" y="189" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="14" fill="#475569">never_export</text>
+  <rect x="150" y="230" width="900" height="170" rx="14" fill="#eef6ff" stroke="#9ec5fe" stroke-dasharray="10 8"/>
+  <text x="600" y="290" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="56" fill="#2563eb">+</text>
+  <text x="600" y="330" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="700" fill="#172033">Drop .txt, .md, .json, or .pdf files</text>
+  <text x="600" y="363" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="17" fill="#526273">Gemini updates the LLM Wiki; Elastic indexes the memories.</text>
+  <text x="150" y="438" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700" fill="#334155">Title</text>
+  <rect x="150" y="454" width="900" height="48" rx="8" fill="#fff" stroke="#d2dce8"/>
+  <text x="172" y="485" font-family="Inter,Arial,sans-serif" font-size="17" fill="#64748b">Travel preferences for summer trips</text>
+  <rect x="150" y="520" width="900" height="112" rx="8" fill="#fff" stroke="#d2dce8"/>
+  <text x="172" y="553" font-family="Inter,Arial,sans-serif" font-size="17" fill="#334155">I prefer morning flights, aisle seats, vegetarian meals, and hotels near public transit.</text>
+  <rect x="150" y="652" width="238" height="44" rx="8" fill="#2563eb"/>
+  <text x="269" y="680" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700" fill="#fff">Save pasted memory</text>
+</svg>

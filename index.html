@@ -14,9 +14,46 @@
           <h1>Memory Dock</h1>
           <p class="lede">A Dropbox for agent memory. Drop files into a Mac menu bar app, let Gemini maintain a living LLM Wiki, and use Elastic MCP to retrieve portable context for any agent.</p>
           <div class="actions">
-            <a href="../README.md">Read the README</a>
-            <a href="../docs/demo-script.md">Demo Script</a>
+            <a class="primary" href="https://github.com/sauravtom/memory-dock/releases/latest/download/MemoryDock-macOS.zip">Download Mac App</a>
+            <a href="https://youtube.com/shorts/kKEFckL8KVA">Watch Demo</a>
+            <a href="https://github.com/sauravtom/memory-dock">View GitHub</a>
           </div>
+          <p class="note">Hackathon demo build for Apple Silicon Macs running macOS 14 or newer. The app is unsigned, so use right-click -> Open if macOS Gatekeeper blocks the first launch.</p>
+        </div>
+      </section>
+      <section class="band download">
+        <div>
+          <p class="eyebrow">Try it locally</p>
+          <h2>Download the menu bar app</h2>
+          <p>Judges can run the native menu bar client, connect it to the hosted API or a local API, then drop sample memory files and export scoped context packs.</p>
+        </div>
+        <div class="steps">
+          <div><strong>1</strong><span>Download and unzip <code>MemoryDock-macOS.zip</code>.</span></div>
+          <div><strong>2</strong><span>Right-click <code>Memory Dock.app</code> and choose <code>Open</code>.</span></div>
+          <div><strong>3</strong><span>Use the Settings tab for your API URL, or run the included API locally.</span></div>
+          <div><strong>4</strong><span>Drop files, search memories, and export context packs for other agents.</span></div>
+        </div>
+      </section>
+      <section class="band">
+        <h2>Product screenshots</h2>
+        <p class="section-copy">Memory Dock keeps the main workflow inside a compact macOS menu bar window: capture, search, export, and audit.</p>
+        <div class="screenshots">
+          <figure>
+            <img src="./assets/screenshot-capture.svg" alt="Memory Dock capture screen with a drop zone and privacy scopes" />
+            <figcaption>Drop files or paste notes with explicit privacy scopes.</figcaption>
+          </figure>
+          <figure>
+            <img src="./assets/screenshot-search.svg" alt="Memory Dock search screen with scoped memory results" />
+            <figcaption>Search the Elastic-backed memory layer by query and scope.</figcaption>
+          </figure>
+          <figure>
+            <img src="./assets/screenshot-export.svg" alt="Memory Dock export screen with a generated context pack" />
+            <figcaption>Export cited context packs for Gemini, Claude, ChatGPT, Codex, or JSON.</figcaption>
+          </figure>
+          <figure>
+            <img src="./assets/screenshot-audit.svg" alt="Memory Dock audit log screen showing search and export events" />
+            <figcaption>Track retrieval, export, and privacy filtering in the audit log.</figcaption>
+          </figure>
         </div>
       </section>
       <section class="band">
@@ -43,8 +80,11 @@
       <section class="band contrast">
         <h2>Why it matters</h2>
         <p>Agents should not force users to rebuild identity, preferences, and project context in every tool. Memory Dock makes memory user-owned, searchable, permissioned, and portable.</p>
+        <div class="actions">
+          <a class="primary" href="https://github.com/sauravtom/memory-dock/releases/latest/download/MemoryDock-macOS.zip">Download Mac App</a>
+          <a href="https://github.com/sauravtom/memory-dock/blob/main/docs/demo-script.md">Read Demo Script</a>
+        </div>
       </section>
     </main>
   </body>
 </html>
-

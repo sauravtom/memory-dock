@@ -48,17 +48,25 @@ h1 {
 }
 
 .actions a {
-  background: #172033;
-  color: white;
+  background: #dfe7ef;
+  color: #172033;
   text-decoration: none;
   padding: 12px 16px;
   border-radius: 8px;
   font-weight: 700;
 }
 
-.actions a + a {
-  background: #dfe7ef;
-  color: #172033;
+.actions a.primary {
+  background: #172033;
+  color: white;
+}
+
+.note {
+  max-width: 720px;
+  color: #526273;
+  font-size: 15px;
+  line-height: 1.55;
+  margin-top: 16px;
 }
 
 .band {
@@ -88,8 +96,105 @@ article p,
   line-height: 1.55;
 }
 
+.download {
+  display: grid;
+  grid-template-columns: minmax(0, 0.86fr) minmax(320px, 1fr);
+  gap: 36px;
+  align-items: start;
+  background: white;
+  border-top: 1px solid #dbe2ea;
+  border-bottom: 1px solid #dbe2ea;
+}
+
+.download p,
+.section-copy {
+  max-width: 760px;
+  line-height: 1.6;
+  color: #526273;
+}
+
+.steps {
+  display: grid;
+  gap: 10px;
+}
+
+.steps div {
+  display: grid;
+  grid-template-columns: 36px 1fr;
+  gap: 12px;
+  align-items: center;
+  padding: 14px;
+  background: #f7f8fb;
+  border: 1px solid #dbe2ea;
+  border-radius: 8px;
+}
+
+.steps strong {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #172033;
+  color: white;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.92em;
+}
+
+.screenshots {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+  margin-top: 24px;
+}
+
+figure {
+  margin: 0;
+}
+
+figure img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1200 / 780;
+  object-fit: cover;
+  border: 1px solid #dbe2ea;
+  border-radius: 8px;
+  background: white;
+  box-shadow: 0 18px 50px rgba(23, 32, 51, 0.12);
+}
+
+figcaption {
+  margin-top: 10px;
+  color: #526273;
+  font-size: 15px;
+  line-height: 1.45;
+}
+
 .contrast {
   background: #172033;
   color: white;
 }
 
+.contrast .actions a {
+  background: rgba(255, 255, 255, 0.14);
+  color: white;
+}
+
+.contrast .actions a.primary {
+  background: white;
+  color: #172033;
+}
+
+@media (max-width: 800px) {
+  .download,
+  .screenshots {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    min-height: 66vh;
+  }
+}
